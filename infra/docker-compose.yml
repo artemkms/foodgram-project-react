@@ -9,7 +9,7 @@ services:
       - ./.env
 
   backend:
-    image: themasterid/foodgram_backend:latest
+    image: artemkms/foodgram_backend:latest
     restart: always
     volumes:
       - data_value:/code/data/
@@ -21,7 +21,7 @@ services:
       - ./.env
 
   frontend:
-    image: themasterid/foodgram_frontend:latest
+    image: artemkms/foodgram_frontend:latest
     volumes:
       - ../frontend/:/app/result_build/
     depends_on:
