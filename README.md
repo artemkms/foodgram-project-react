@@ -1,5 +1,7 @@
 # FoodGram
 
+Проект доступен по адресу https://130.193.42.86
+
 ## Статус
 ![example workflow](https://github.com/artemkms/foodgram-project-react/actions/workflows/foodgram.yml/badge.svg)
 
