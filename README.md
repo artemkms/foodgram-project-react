@@ -69,15 +69,6 @@ sudo docker-compose exec backend python manage.py createsuperuser
 sudo docker-compose exec backend python manage.py collectstatic --no-input
 ```
 
-Дополнительно можно наполнить DB ингредиентами и тэгами:
-
-```bash
-sudo docker-compose exec backend python manage.py load_tags
-```
-```bash
-sudo docker-compose exec backend python manage.py load_ingrs
-```
-
 ## Запуск проекта в dev-режиме
 
 - Установить и активировать виртуальное окружение
