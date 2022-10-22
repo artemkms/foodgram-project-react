@@ -10,7 +10,7 @@ BASE_DIR = os.path.dirname(
 SECRET_KEY = 'dt-52p$0j63b^y9c%dmy(=-)uvv%9!&!_j(1++xk8rtzgn@c+7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.getenv('DEBUG', default='True') == 'True'
+DEBUG = 'False'
 
 LOCAL = True if os.name == "nt" else False
 
