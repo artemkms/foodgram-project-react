@@ -16,7 +16,7 @@ LOCAL = True if os.name == "nt" else False
 
 ALLOWED_HOSTS = ['*']
 
-DEFAULT_AUTO_FIELD='django.db.models.AutoField'
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
 CORS_ORIGIN_ALLOW_ALL = True
 
